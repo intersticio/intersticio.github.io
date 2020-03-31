@@ -12,12 +12,13 @@
     font-family: "Roboto";
     font-weight: bold;
     font-size: 12px;
+    background-color: #F4F3F1;
     color: #000;
     letter-spacing: 0.23px;
     padding-top: 20px; }
     .comp-form #top-nav::before {
       position: absolute;
-      background: #000;
+      background: #F4F3F1;
       top: 0;
       bottom: 0;
       left: -50vw;
