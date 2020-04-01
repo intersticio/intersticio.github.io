@@ -1,4 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Roboto:300,500|Overpass+Mono:300);@charset "UTF-8";
+@import url(
+  https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Roboto:300,500|Overpass+Mono:300);@charset "UTF-8";
+
+canvas { 
+  position:fixed; 
+  top:0; 
+  left:0; 
+  z-index:1; 
+}
+
+#contenu { 
+  position:relative; 
+  z-index:2; 
+  cursor: none !important;
+}
+
+
+
 .comp-form {
   overflow-x: hidden; }
   .comp-form #logo {
@@ -136,18 +153,23 @@
   background: rgba(0, 170, 255, 0.1); }
 
 .comp-form.toc {
-  background-color: #F4F3F1; }
+  /*#000*/
+  background-color: #000;
+   }
 
 .comp-form-toc h1 {
   font-family: "Miriam Libre";
   font-weight: bold;
   font-size: 25px;
   line-height: 1.5;
-  color: #000;
+  color: #F4F3F1;
   letter-spacing: 0.31px;
   margin-top: 100px;
   margin-bottom: 24px;
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+  margin-left: 18px;
+
+}
 
 .comp-form-toc h2 {
   font-family: "Miriam Libre";
@@ -169,7 +191,7 @@
   border-bottom: 1px solid transparent; }
 
 .comp-form-toc a h3 {
-  color: #000000BF;
+  color: #F4F3F1BF;
   display: inline-block; }
 
 .comp-form-toc a {
@@ -177,7 +199,7 @@
 
 .comp-form-toc .row > a,
 .comp-form-toc .row > a:hover {
-  color: #000;
+  color: #F4F3F1;
   text-decoration: none;
   font-size: 12px;
   margin-bottom: 25px; }
@@ -211,10 +233,14 @@
   font-family: "Roboto";
   font-weight: 300;
   font-size: 14px;
+  color: #F4F3F1;
   letter-spacing: 0.31px;
   line-height: calc(25 / 16);
   padding-right: 30px;
-  margin-bottom: 3em; }
+  margin-bottom: 3em; 
+  margin-left: 18px;
+
+}
 
 .comp-form-toc .intro {
   margin-bottom: 10px;
